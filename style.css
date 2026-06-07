@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Poppins", sans-serif;
     background: #071013;
     color: #ffffff;
     overflow-x: hidden;
 }
+
 
 .navbar {
     position: fixed;
@@ -54,6 +56,7 @@ body {
 
     color: #2ecc71;
 }
+
 
 .home {
     min-height: 100vh;
@@ -154,7 +157,7 @@ body {
     font-size: 2.5rem;
 }
 
-/* ===== GRIDS ===== */
+
 
 .grid-3 {
     display: grid;
@@ -196,6 +199,30 @@ body {
 .card p, .tech-card p, .objective-card p {
     color: #b5b5b5;
     line-height: 1.8;
+}
+
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.benefit {
+    background: #12282d;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.benefit h3 {
+    color: #2ecc71;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    color: #b5b5b5;
 }
 
 
